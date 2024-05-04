@@ -1,0 +1,835 @@
+.frame {
+    width: 631px;
+    height: 753px;
+    position: relative;
+    overflow: hidden;
+    flex-shrink: 0;
+    display: none;
+    max-width: 100%;
+  }
+  .frame-child,
+  .frame-item {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+  .frame-item {
+    top: 16px;
+    left: 14.6px;
+    background-color: #771717;
+    width: 11.6px;
+    height: 13px;
+    z-index: 1;
+  }
+  .vector-parent {
+    width: 40.7px;
+    height: 32px;
+    position: relative;
+  }
+  .home-about-community-signup-inner {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: var(--padding-9xs) 0 0;
+  }
+  .carecove {
+    margin: 0;
+    flex: 1;
+    position: relative;
+    font-size: inherit;
+    font-style: italic;
+    font-weight: 700;
+    font-family: inherit;
+    white-space: nowrap;
+    z-index: 1;
+  }
+  .home-about-community-signup {
+    width: 285.3px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 21.4px;
+  }
+  .about,
+  .home {
+    width: 106.7px;
+    display: inline-block;
+    flex-shrink: 0;
+  }
+  .about,
+  .community,
+  .contact,
+  .home,
+  .signup {
+    position: relative;
+    font-weight: 700;
+  }
+  .contact,
+  .signup {
+    width: 106.7px;
+    display: inline-block;
+    flex-shrink: 0;
+  }
+  .frame-wrapper,
+  .home-parent {
+    display: flex;
+    align-items: flex-start;
+  }
+  .home-parent {
+    align-self: stretch;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: var(--gap-xl);
+  }
+  .frame-wrapper {
+    width: 863.2px;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 0 0 var(--padding-9xs);
+    box-sizing: border-box;
+    max-width: 100%;
+    font-size: var(--font-size-5xl);
+  }
+  .frame-inner {
+    height: 27px;
+    width: 64px;
+    position: absolute;
+    margin: 0 !important;
+    top: 4px;
+    left: 0;
+    z-index: 2;
+  }
+  .home-about-community-signup-parent {
+    width: 1542.8px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: space-between;
+    padding: 0 12px 0 11.6px;
+    box-sizing: border-box;
+    position: relative;
+    gap: var(--gap-xl);
+    max-width: 100%;
+  }
+  .a-care-like {
+    width: 254.2px;
+    position: relative;
+    display: inline-block;
+    font-weight: 700;
+    white-space: pre-wrap;
+  }
+  .line-icon {
+    width: 1429px;
+    position: relative;
+    max-height: 100%;
+    object-fit: contain;
+    margin-top: -1px;
+    max-width: 100%;
+  }
+  .line-wrapper {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-end;
+    max-width: 100%;
+  }
+  .section-divider {
+    border-top: 2px solid #000; /* Change color as needed */
+    margin: 20px 0; /* Adjust spacing as needed */
+}
+
+  .a-care-like-home-parent,
+  .welcome-message-inner {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    max-width: 100%;
+  }
+  .a-care-like-home-parent {
+    flex: 1;
+    flex-direction: column;
+    gap: 49.2px;
+    text-align: left;
+    font-size: 15px;
+    color: var(--color-white);
+    font-family: var(--font-georgia);
+  }
+  .welcome-message-inner {
+    width: 1573.2px;
+    flex-direction: row;
+    padding: 0 43px 0 43.2px;
+    box-sizing: border-box;
+  }
+  .blank-line,
+  .care-cove,
+  .welcome-to {
+    margin: 0;
+  }
+  .welcome-to-care-container {
+    margin: 0;
+    width: 448.8px;
+    height: 126.6px;
+    position: relative;
+    font-size: inherit;
+    font-weight: 700;
+    font-family: inherit;
+    display: inline-block;
+    flex-shrink: 0;
+    max-width: 100%;
+    z-index: 6;
+  }
+  .ellipse-div {
+    position: absolute;
+    height: 100%;
+    top: 0;
+    bottom: 0;
+    left: 353px;
+    filter: blur(106px);
+    border-radius: 50%;
+    background-color: var(--color-mediumpurple);
+    width: 631px;
+  }
+  .image-2-icon {
+    position: absolute;
+    top: 13px;
+    right: 31px;
+    border-radius: 300px;
+    width: 871px;
+    height: 527px;
+    object-fit: cover;
+    z-index: 1;
+  }
+  .ellipse-parent {
+    width: 984px;
+    height: 100%;
+    position: absolute;
+    margin: 0 !important;
+    top: 0;
+    right: 0;
+    bottom: 0;
+  }
+  .wher-promises-are,
+  .where-palliative-care {
+    margin: 0;
+  }
+  .where-palliative-care-container {
+    margin: 0;
+    flex: 1;
+    position: relative;
+    font-size: inherit;
+    font-weight: 400;
+    font-family: inherit;
+    display: inline-block;
+    max-width: 100%;
+    z-index: 6;
+  }
+  .machines-platform-connecting {
+    width: 508px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 var(--padding-xl) 213.6px 0;
+    box-sizing: border-box;
+    max-width: 100%;
+    font-size: var(--font-size-21xl);
+  }
+  .frame-child1 {
+    flex: 1;
+    position: relative;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+    object-fit: contain;
+    margin-top: -1px;
+    z-index: 5;
+  }
+  .line-container,
+  .welcome-to-care-cove-parent {
+    justify-content: flex-start;
+    box-sizing: border-box;
+  }
+  .line-container {
+    width: 1487px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0 var(--padding-5xl);
+    max-width: 100%;
+  }
+  .welcome-to-care-cove-parent {
+    align-self: stretch;
+    flex-direction: column;
+    padding: var(--padding-44xl) 0 46px;
+    position: relative;
+    gap: 50.4px;
+  }
+  .symptom-predictor-icon,
+  .welcome-message,
+  .welcome-to-care-cove-parent {
+    display: flex;
+    align-items: flex-start;
+    max-width: 100%;
+  }
+  .welcome-message {
+    width: 1607px;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: var(--gap-45xl);
+  }
+  .symptom-predictor-icon {
+    align-self: stretch;
+    flex-direction: row;
+    justify-content: flex-end;
+    font-size: 64px;
+  }
+  .frame-parent,
+  .why-carecove {
+    font-size: var(--font-size-21xl);
+  }
+  .frame-parent {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    max-width: 100%;
+    text-align: left;
+    color: var(--color-white);
+    font-family: var(--font-georgia);
+  }
+  .why-carecove {
+    margin: 0;
+  }
+  .p {
+    margin: 0;
+  }
+  .p,
+  .span {
+    font-size: var(--font-size-21xl);
+    white-space: pre-wrap;
+  }
+  .information-access {
+    margin: 0;
+  }
+  .awareness-and-education,
+  .community-engagement,
+  .provider-directory,
+  .support-for-patients {
+    margin: 0;
+    white-space: pre-wrap;
+  }
+  .why-carecove-information-container {
+    width: 631px;
+    position: relative;
+    display: inline-block;
+    flex-shrink: 0;
+    max-width: 100%;
+  }
+  .ellipse4 {
+    position: absolute;
+    top: 477.2px;
+    left: -43px;
+    filter: blur(159px);
+    border-radius: 50%;
+    background-color: var(--color-mediumpurple);
+    width: 613px;
+    height: 735px;
+    z-index: 4;
+  }
+  .image-3-icon {
+    position: absolute;
+    top: 792.2px;
+    left: 81px;
+    border-radius: 67px;
+    width: 582px;
+    height: 438px;
+    object-fit: cover;
+    z-index: 5;
+  }
+  .frame-child2 {
+    position: absolute;
+    top: 0;
+    left: -25px;
+    filter: blur(168px);
+    border-radius: 50%;
+    background-color: #5d2367;
+    width: 432.4px;
+    height: 517.3px;
+    z-index: 5;
+  }
+  .ellipse4-parent {
+    height: 1230.2px;
+    width: 663px;
+    position: absolute;
+    margin: 0 !important;
+    top: -809.2px;
+    left: -69px;
+  }
+  .why-carecove-information-acc-parent {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 0 var(--padding-xl) 184px 692px;
+    box-sizing: border-box;
+    position: relative;
+    max-width: 100%;
+    text-align: left;
+    font-size: var(--font-size-17xl);
+    color: var(--color-white);
+    font-family: var(--font-georgia);
+  }
+  .symptom-predictor-subcontainer {
+    width: 1420px;
+    position: relative;
+    max-height: 100%;
+    object-fit: contain;
+    max-width: 100%;
+    z-index: 4;
+  }
+  .symptom-predictor-subcontainer-wrapper {
+    width: 1606px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 0 var(--padding-xl);
+    box-sizing: border-box;
+    max-width: 100%;
+  }
+  .subbox1 {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    margin: 0 !important;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    filter: blur(11px);
+    border-radius: var(--br-17xl);
+    background-color: var(--color-darkslateblue-100);
+  }
+  .symptom-predictor {
+    margin: 0;
+    flex: 1;
+    position: relative;
+    font-size: inherit;
+    font-weight: 400;
+    font-family: inherit;
+    display: inline-block;
+    max-width: 100%;
+    z-index: 1;
+  }
+  .our-symptom-predictor {
+    width: 444px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 var(--padding-7xl);
+    box-sizing: border-box;
+    max-width: 100%;
+  }
+  .our-symptom-predictor1 {
+    margin: 0;
+    align-self: stretch;
+    position: relative;
+    font-size: var(--font-size-17xl);
+    font-weight: 400;
+    font-family: inherit;
+    z-index: 1;
+  }
+  .seek-caregivers {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 58px;
+    max-width: 100%;
+  }
+  .rectangle-div {
+    height: 99px;
+    width: 303px;
+    position: relative;
+    border-radius: var(--br-60xl);
+    background-color: var(--color-fuchsia-200);
+    display: none;
+  }
+  .take-questionnaire {
+    position: relative;
+    font-size: var(--font-size-13xl);
+    font-family: var(--font-inter);
+    color: var(--color-white);
+    text-align: left;
+    z-index: 2;
+  }
+  .rectangle-parent,
+  .symptom-predictor-content,
+  .symptom-predictor-content-inner {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .rectangle-parent {
+    cursor: pointer;
+    border: 0;
+    padding: var(--padding-11xl) 8px var(--padding-11xl) 9px;
+    background-color: var(--color-fuchsia-200);
+    border-radius: var(--br-60xl);
+    white-space: nowrap;
+    z-index: 1;
+  }
+  .rectangle-group:hover,
+  .rectangle-parent:hover {
+    background-color: var(--color-fuchsia-100);
+  }
+  .symptom-predictor-content,
+  .symptom-predictor-content-inner {
+    padding: 0 var(--padding-7xl);
+    box-sizing: border-box;
+    max-width: 100%;
+  }
+  .symptom-predictor-content {
+    flex: 1;
+    flex-direction: column;
+    padding: var(--padding-71xl) var(--padding-16xl) var(--padding-23xl) 95px;
+    position: relative;
+    gap: 80px;
+    min-width: 391px;
+  }
+  .subbox2 {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    margin: 0 !important;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    filter: blur(11px);
+    border-radius: var(--br-17xl);
+    background-color: var(--color-darkslateblue-100);
+  }
+  .seek-caregivers1 {
+    margin: 0;
+    width: 337px;
+    position: relative;
+    font-size: inherit;
+    font-weight: 400;
+    font-family: inherit;
+    display: inline-block;
+    flex-shrink: 0;
+    max-width: 100%;
+    z-index: 1;
+  }
+  .seek-caregivers-wrapper {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-end;
+    padding: 0 var(--padding-16xl);
+    box-sizing: border-box;
+    max-width: 100%;
+  }
+  .a-platform-connecting {
+    margin: 0;
+    align-self: stretch;
+    position: relative;
+    font-size: var(--font-size-17xl);
+    font-weight: 400;
+    font-family: inherit;
+    z-index: 1;
+  }
+  .frame-container {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 57px;
+    max-width: 100%;
+  }
+  .frame-child3 {
+    height: 99px;
+    width: 303px;
+    position: relative;
+    border-radius: var(--br-73xl);
+    background-color: var(--color-fuchsia-300);
+    display: none;
+  }
+  .seek {
+    position: relative;
+    font-size: var(--font-size-17xl);
+    font-family: var(--font-inter);
+    color: var(--color-white);
+    text-align: left;
+    display: inline-block;
+    min-width: 85px;
+    z-index: 2;
+  }
+  .ellipse-group,
+  .symptom-predictor-content-child {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+  }
+  .ellipse-group {
+    cursor: pointer;
+    border: 0;
+    padding: var(--padding-9xl) var(--padding-xl) var(--padding-8xl);
+    background-color: var(--color-fuchsia-300);
+    flex: 1;
+    border-radius: var(--br-73xl);
+    justify-content: center;
+    z-index: 1;
+  }
+  .symptom-predictor-content-child {
+    width: 407px;
+    justify-content: flex-end;
+    padding: 0 52px;
+    box-sizing: border-box;
+    max-width: 100%;
+  }
+  .symptom-predictor-content1 {
+    flex: 0.9172;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-start;
+    padding: var(--padding-71xl) var(--padding-71xl) var(--padding-23xl) 79px;
+    box-sizing: border-box;
+    position: relative;
+    gap: 124px;
+    min-width: 391px;
+    max-width: 100%;
+  }
+  .frame-group,
+  .macbook-pro-16-1,
+  .symptom-predictor-title {
+    display: flex;
+    align-items: flex-start;
+    box-sizing: border-box;
+  }
+  .symptom-predictor-title {
+    align-self: stretch;
+    border-radius: 28px;
+    background-color: #6c4b8e;
+    flex-direction: row;
+    justify-content: center;
+    padding: 65px 115px;
+    gap: 188px;
+    max-width: 100%;
+  }
+  .frame-group,
+  .macbook-pro-16-1 {
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  .frame-group {
+    width: 1640px;
+    padding: 0 var(--padding-xl) 0 0;
+    gap: var(--gap-45xl);
+    max-width: 100%;
+    text-align: left;
+    font-size: var(--font-size-21xl);
+    color: var(--color-white);
+    font-family: var(--font-inter);
+  }
+  .macbook-pro-16-1 {
+    width: 100%;
+    position: relative;
+    background-color: #350b55;
+    overflow: hidden;
+    padding: var(--padding-44xl) 0 var(--padding-5xl) 69px;
+    gap: 137px;
+    line-height: normal;
+    letter-spacing: normal;
+  }
+  @media screen and (max-width: 1350px) {
+    .welcome-message-inner {
+      padding-left: var(--padding-2xl);
+      padding-right: var(--padding-2xl);
+      box-sizing: border-box;
+    }
+    .why-carecove-information-acc-parent {
+      padding-left: 346px;
+      box-sizing: border-box;
+    }
+    .symptom-predictor-content,
+    .symptom-predictor-content1 {
+      flex: 1;
+    }
+    .symptom-predictor-title {
+      flex-wrap: wrap;
+      gap: 94px;
+      padding-left: var(--padding-38xl);
+      padding-right: var(--padding-38xl);
+      box-sizing: border-box;
+    }
+  }
+  @media screen and (max-width: 1125px) {
+    .home-parent {
+      display: none;
+    }
+    .frame-wrapper {
+      width: 0;
+    }
+    .symptom-predictor-title {
+      padding-top: var(--padding-23xl);
+      padding-bottom: var(--padding-23xl);
+      box-sizing: border-box;
+    }
+    .macbook-pro-16-1 {
+      gap: 68px;
+      padding-left: 34px;
+      box-sizing: border-box;
+    }
+  }
+  @media screen and (max-width: 800px) {
+    .carecove {
+      font-size: var(--font-size-13xl);
+    }
+    .a-care-like-home-parent {
+      gap: var(--gap-6xl);
+    }
+    .welcome-to-care-container {
+      font-size: 40px;
+    }
+    .where-palliative-care-container {
+      font-size: var(--font-size-13xl);
+    }
+    .welcome-to-care-cove-parent {
+      gap: var(--gap-6xl);
+      padding-top: 41px;
+      padding-bottom: var(--padding-11xl);
+      box-sizing: border-box;
+    }
+    .welcome-message {
+      gap: var(--gap-13xl);
+    }
+    .why-carecove-information-container {
+      font-size: var(--font-size-10xl);
+    }
+    .why-carecove-information-acc-parent {
+      padding-left: 173px;
+      padding-bottom: 120px;
+      box-sizing: border-box;
+    }
+    .symptom-predictor {
+      font-size: var(--font-size-13xl);
+    }
+    .our-symptom-predictor1 {
+      font-size: var(--font-size-10xl);
+    }
+    .seek-caregivers {
+      gap: 29px;
+    }
+    .symptom-predictor-content {
+      gap: 40px;
+      padding-left: 47px;
+      padding-top: var(--padding-39xl);
+      padding-bottom: var(--padding-8xl);
+      box-sizing: border-box;
+      min-width: 100%;
+    }
+    .seek-caregivers1 {
+      font-size: var(--font-size-13xl);
+    }
+    .a-platform-connecting,
+    .seek {
+      font-size: var(--font-size-10xl);
+    }
+    .symptom-predictor-content1 {
+      gap: 62px;
+      padding: var(--padding-39xl) 45px var(--padding-8xl) 39px;
+      box-sizing: border-box;
+      min-width: 100%;
+    }
+    .symptom-predictor-title {
+      gap: 47px;
+      padding-left: var(--padding-9xl);
+      padding-right: var(--padding-9xl);
+      box-sizing: border-box;
+    }
+    .frame-group {
+      gap: var(--gap-13xl);
+    }
+  }
+  @media screen and (max-width: 450px) {
+    .carecove {
+      font-size: var(--font-size-5xl);
+    }
+    .welcome-to-care-container {
+      font-size: 38px;
+    }
+    .where-palliative-care-container {
+      font-size: var(--font-size-5xl);
+    }
+    .machines-platform-connecting {
+      padding-bottom: 139px;
+      box-sizing: border-box;
+    }
+    .welcome-message {
+      gap: var(--gap-base);
+    }
+    .why-carecove-information-container {
+      font-size: var(--font-size-3xl);
+    }
+    .why-carecove-information-acc-parent {
+      padding-left: var(--padding-xl);
+      box-sizing: border-box;
+    }
+    .symptom-predictor {
+      font-size: var(--font-size-5xl);
+    }
+    .our-symptom-predictor1 {
+      font-size: var(--font-size-3xl);
+    }
+    .symptom-predictor-content {
+      gap: var(--gap-xl);
+      padding-left: var(--padding-xl);
+      box-sizing: border-box;
+    }
+    .seek-caregivers1 {
+      font-size: var(--font-size-5xl);
+    }
+    .a-platform-connecting {
+      font-size: var(--font-size-3xl);
+    }
+    .frame-container {
+      gap: 28px;
+    }
+    .seek {
+      font-size: var(--font-size-3xl);
+    }
+    .symptom-predictor-content-child {
+      padding-left: var(--padding-xl);
+      padding-right: var(--padding-xl);
+      box-sizing: border-box;
+    }
+    .symptom-predictor-content1 {
+      gap: 31px;
+      padding-right: var(--padding-xl);
+      box-sizing: border-box;
+    }
+    .symptom-predictor-title {
+      gap: 23px;
+      padding-top: var(--padding-8xl);
+      padding-bottom: var(--padding-8xl);
+      box-sizing: border-box;
+    }
+    .frame-group { 
+        gap: var(--gap-base);
+    }
+}
